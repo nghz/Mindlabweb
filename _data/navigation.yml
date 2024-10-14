@@ -1,0 +1,14 @@
+- name: Home
+  link: hero
+
+- name: About Us
+  link: about
+
+- name: Blog
+  link: blog
+
+- name: Team Members
+  link: team
+
+- name: Contact
+  link: contact
