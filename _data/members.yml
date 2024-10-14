@@ -1,5 +1,5 @@
 - name: Walter White
-  img: /assets/img/speakers/speaker-1.jpg
+  img: assets/img/speakers/speaker-1.jpg
   title: chemist
   social:
     - link: 124
@@ -9,7 +9,7 @@
       icon: bi-instagram
 
 - name: Whiliam Ghazanfari
-  img: /assets/img/speakers/speaker-2.jpg
+  img: assets/img/speakers/speaker-2.jpg
   title: chemist
   social:
     - link: 124
