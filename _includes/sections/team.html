@@ -21,7 +21,7 @@
             </div>
             <div class="social">
               {% for s in member.social%}
-              <a href="{{s.link}}"><i class="bi {{s.icon}}"></i></a>
+              <a href="{{s.link}}" target="_blank"><i class="bi {{s.icon}}"></i></a>
               {% endfor %}
             </div>
           </div>
@@ -29,8 +29,6 @@
       </div><!-- End Team Member -->
       {% endfor %}
     </div>
-
-
   </div>
 
 </section><!-- /Speakers Section -->
