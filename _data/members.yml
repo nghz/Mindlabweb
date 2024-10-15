@@ -1,11 +1,11 @@
-- name: Walter White
-  img: assets/img/speakers/speaker-1.jpg
-  title: chemist
+- name: Mostafa Abbaszadeh
+  img: assets/img/speakers/download (1).jpg
+  title: Professor
   social:
-    - link: 124
+    - link: https://www.linkedin.com/in/mostafa-abbaszadeh-81493b248/
       icon: bi-linkedin
 
-    - link: 124
+    - link: https://github.com/MAbbaszadeh1988
       icon: bi-instagram
 
 - name: Whiliam Ghazanfari
