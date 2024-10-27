@@ -1,1 +1,4 @@
 name: MINDLAB
+collections:
+  members:
+    output: true
