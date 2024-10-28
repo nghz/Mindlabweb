@@ -4,11 +4,33 @@ layout: default
 <section id="intro" class="dark-background">
 </section>
 
-<section id="blog" class="light-background">
-    <div class="container">
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.date | date_to_string }} - {{ page.speaker }}</p>
-        
-        {{ content }}
+<section id="blog">
+    <div class="container post-info">
+        <div class="row">
+            <div class="section-title">
+                <h2>{{page.title}}</h2>
+            </div>
+            <div class="row">
+                <div class="mb-3">
+                    <i>Posted on: {{page.date | date_to_string}}</i> 
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12"> 
+                <img src="{{page.poster}}" alt="{{page.title}}" class="post-img">
+                <br/>
+                <h4 class="mt-2"><b>Related Links: </b></h4>
+                <div class="social mb-2">
+                    {% for s in page.social%}
+                    <a href="{{s.link}}" target="_blank"><i class="bi {{s.icon}}"></i></a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 post-abstract">
+                <i>{{page.abstract}}</i>
+            </div>
+        </div>
+        <div class="row mt-5">
+            {{content}}
+        </div>
     </div>
 </section>
