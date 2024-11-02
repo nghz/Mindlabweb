@@ -288,6 +288,14 @@ h6 {
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
+.header .sitename h1 {
+  color: #f82249;
+  font-size: 36px;
+  font-weight: 700;
+  -webkit-text-stroke: 1px black;
+
+}
+
 .header .logo-box {
   color: var(--contrast-color);
   background-color: #df15298e;
@@ -945,7 +953,7 @@ section,
 
 .hero h2 {
   margin: 0;
-  color: #ffffff;
+  color: #ffe600;
   font-size: 48px;
   font-weight: 700;
 }
@@ -1022,6 +1030,11 @@ section,
   text-align: center;
   position: relative;
   overflow: hidden;
+}
+
+.speakers .member .pic {
+  overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .speakers .member .member-info {
@@ -2018,32 +2031,4 @@ section,
     opacity: 1;
   }
 }
-
-
-/* Cursor */
-// .cursor{
-//   position: relative;
-//   width: 24em;
-//   margin: 0 auto;
-//   border-right: 2px solid rgba(255,255,255,.75);
-//   font-size: 30px;
-//   text-align: center;
-//   white-space: nowrap;
-//   overflow: hidden;
-//   transform: translateY(-50%);    
-// }
-// /* Animation */
-// .typewriter-animation {
-// animation: 
-//   typewriter 5s steps(50) 1s 1 normal both, 
-//   blinkingCursor 500ms steps(50) infinite normal;
-// }
-// @keyframes typewriter {
-// from { width: 0; }
-// to { width: 100%; }
-// }
-// @keyframes blinkingCursor{
-// from { border-right-color: rgba(255,255,255,.75); }
-// to { border-right-color: transparent; }
-// }
 

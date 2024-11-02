@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pm_default
 ---
 <section class="dark-background">
 </section>
@@ -22,7 +22,7 @@ layout: default
                 </div>
                 <div class="social">
                     {% for s in page.social%}
-                    <a href="{{s.link}}" target="_blank" class="mx-1" ><i class="bi {{s.icon}}"></i></a>
+                    <a href="{{s.link}}" target="_blank" class="mx-1" ><i class="{{s.icon}}"></i></a>
                     {% endfor %}
                 </div>
             </div>

@@ -11,7 +11,7 @@
     <div class="row gy-4">
 
       {% for member in site.members %}
-      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-xl-2 col-lg-4 col-md-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
         <div class="member">
           <img src="{{ member.avatar }}" class="img-fluid" alt="">
           <div class="member-info">
@@ -21,7 +21,7 @@
             </div>
             <div class="social">
               {% for s in member.social%}
-              <a href="{{s.link}}" target="_blank"><i class="bi {{s.icon}}"></i></a>
+              <a href="{{s.link}}" target="_blank" class="mx-1" ><i class="{{s.icon}}"></i></a>
               {% endfor %}
             </div>
           </div>

@@ -1,8 +1,9 @@
 ---
 layout: post
 speaker: Amirreza Khodadadian
-position: Faculty Member
-avatar: /assets/img/speakers/speaker-2.jpg
+position: Assistant Professor (Lecturer)
+avatar: /assets/img/posts/23-10-2024/amirezza-300.jpg
+date: 23-10-2024
 title: >
   Advanced Numerical Modeling of Fracture Mechanisms in Lithium-Ion Batteries During Charge/Discharge Cycles: Implementation Using FEniCS
 abstract: >
