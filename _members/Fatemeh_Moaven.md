@@ -1,8 +1,8 @@
 ---
 layout: member
 name: Fatemeh Moaven
-# avatar: /assets/img/membersimg/Fatemehmoaven.jpg
-avatar: /assets/img/membersimg/images.png
+avatar: /assets/img/membersimg/Fatemehmoaven.jpg
+# avatar: /assets/img/membersimg/images.png
 title: Member
 social:
   - link: https://www.linkedin.com/in/fatemeh-moaven-1151b2231/
