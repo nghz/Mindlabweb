@@ -1,8 +1,8 @@
 ---
 layout: member
 name: Reza Masoumzadeh
-# avatar: /assets/img/membersimg/RezaMasoumzadeh.jpg
-avatar: /assets/img/membersimg/images.png
+avatar: /assets/img/membersimg/RezaMasoumzadeh.jpg
+# avatar: /assets/img/membersimg/images.png
 title: Member
 social:
   - link: https://www.linkedin.com/in/reza-masoumzadeh-10a09b225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
