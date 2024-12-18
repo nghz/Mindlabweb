@@ -1,7 +1,8 @@
 ---
 layout: member
 name: M.Soroush Ghafari
-avatar: /assets/img/membersimg/images.png
+category: Physics and Engineering
+avatar: /assets/img/membersimg/M. Soroush Ghafari.png
 title: Member
 social:
   - link: https://www.linkedin.com/in/soroushghafari

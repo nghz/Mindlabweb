@@ -1,6 +1,7 @@
 ---
 layout: member
 name: Reza Masoumzadeh
+category: Physics and Engineering
 avatar: /assets/img/membersimg/RezaMasoumzadeh.jpg
 # avatar: /assets/img/membersimg/images.png
 title: Member

@@ -2,6 +2,7 @@
 layout: member
 name: Shila Rezvani
 avatar: /assets/img/membersimg/images.png
+category: Computational Biology
 title: Member
 social:
   - link: linkedin.com/in/shila-rezvani-416853331

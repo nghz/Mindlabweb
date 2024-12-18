@@ -1,7 +1,8 @@
 ---
 layout: member
 name: Nima Mohamadi
-avatar: /assets/img/membersimg/images.png
+category: Neuroscience
+avatar: /assets/img/membersimg/Nima Mohamadi.png
 title: Member
 social:
   - link: https://www.linkedin.com/in/nima-mohammadi-764a9a228

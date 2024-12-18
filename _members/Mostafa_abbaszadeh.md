@@ -1,8 +1,8 @@
 ---
 layout: member
 name: Mostafa Abbaszadeh
-# avatar: /assets/img/membersimg/download (1).jpg
-avatar: /assets/img/membersimg/images.png
+category: Professor/TeamLead
+avatar: /assets/img/membersimg/MostafaAbbaszadeh.jpg
 title: Professor/Team lead
 social:
   - link: https://www.linkedin.com/in/mostafa-abbaszadeh-81493b248/

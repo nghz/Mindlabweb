@@ -1,7 +1,8 @@
 ---
 layout: member
 name: MohammadReza Ahmadi
-avatar: /assets/img/membersimg/images.png
+category: Finance
+avatar: /assets/img/membersimg/Mohammad Reza Ahmadi.png
 title: Member
 social:
   - link: https://github.com/Mohammad-Reza-Ahmadi

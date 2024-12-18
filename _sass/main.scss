@@ -293,7 +293,6 @@ h6 {
   font-size: 36px;
   font-weight: 700;
   -webkit-text-stroke: 1px black;
-
 }
 
 .header .logo-box {
@@ -933,7 +932,7 @@ section,
   inset: 0;
   display: block;
   width: 100%;
-  height: 100%; 
+  height: 100%;
   object-fit: cover;
   z-index: 1;
 }
@@ -1952,7 +1951,7 @@ section,
 /*--------------------------------------------------------------
   # Blog Section
   --------------------------------------------------------------*/
-.post-info .post-img{
+.post-info .post-img {
   max-width: 100%;
 }
 
@@ -2015,7 +2014,8 @@ section,
 }
 
 @keyframes fade-in-out {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
   }
   50% {
@@ -2024,7 +2024,8 @@ section,
 }
 
 @keyframes fade-out-in {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0;
   }
   50% {
@@ -2032,3 +2033,12 @@ section,
   }
 }
 
+/* team Section */
+
+.category-title {
+  text-align: center;
+  color: rgb(92, 90, 90);
+  font-size: 1.8rem;
+  margin: 20px 0;
+  font-weight: 400;
+}
