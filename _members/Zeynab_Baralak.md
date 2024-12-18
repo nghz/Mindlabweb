@@ -1,6 +1,7 @@
 ---
 layout: member
 name: Zeynab Baralak
+category: Physics and Engineering
 avatar: /assets/img/membersimg/images.png
 title: Member
 social:

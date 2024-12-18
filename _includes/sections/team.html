@@ -1,34 +1,103 @@
 <!-- Speakers Section -->
 <section id="team" class="speakers section">
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Team Members<br></h2>
-
-  </div><!-- End Section Title -->
+  <div class="container section-title p-2" data-aos="fade-up">
+    <h2 class="text-center">Team Members</h2>
+  </div>
 
   <div class="container">
+    <!-- Group Members by Category -->
+    {% assign grouped_members = site.members | group_by: "category" %}
 
-    <div class="row gy-4">
+    <!-- Manually Show the "Professor/Team Lead" Category First -->
+    {% for group in grouped_members %} {% if group.name == "Professor/TeamLead"
+    %}
+    <div class="row mb-4">
+      <!-- Category Title -->
+      <!-- <div class="col-12">
+        <h3 class="category-title text-center text-danger fw-bold my-3">
+          {{ group.name }}
+        </h3>
+      </div> -->
 
-      {% for member in site.members %}
-      <div class="col-xl-2 col-lg-4 col-md-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-        <div style="width: 200px; height: 230px;" class="member">
-          <img src="{{ member.avatar }}" style="width: 100%; height: 100%; object-fit: cover;" alt="">
-          <div class="member-info">
-            <div class="member-info-content">
-              <h4><a href="{{member.url}}">{{ member.name }}</a></h4>
-              <span>{{ member.title }}</span>
-            </div>
-            <div class="social">
-              {% for s in member.social%}
-              <a href="{{s.link}}" target="_blank" class="mx-1" ><i class="{{s.icon}}"></i></a>
-              {% endfor %}
+      <!-- Team Members -->
+      <div class="row gy-4 gx-4 justify-content-center">
+        {% for member in group.items %}
+        <div
+          class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center"
+        >
+          <div
+            style="width: 200px; height: 230px; border-radius: 9px"
+            class="member"
+          >
+            <img
+              src="{{ member.avatar }}"
+              style="width: 100%; height: 100%; object-fit: cover"
+              alt="{{ member.name }}"
+            />
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4><a href="{{ member.url }}">{{ member.name }}</a></h4>
+                <span>{{ member.title }}</span>
+              </div>
+              <div class="social">
+                {% for s in member.social %}
+                <a href="{{ s.link }}" target="_blank" class="mx-1">
+                  <i class="{{ s.icon }}"></i>
+                </a>
+                {% endfor %}
+              </div>
             </div>
           </div>
         </div>
-      </div><!-- End Team Member -->
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
-  </div>
+    {% endif %} {% endfor %}
 
-</section><!-- /Speakers Section -->
+    <!-- Show All Other Categories Except "Professor/Team Lead" -->
+    {% for group in grouped_members %} {% unless group.name ==
+    "Professor/TeamLead" %}
+    <div class="row mb-4">
+      <!-- Category Title -->
+      <div class="col-12">
+        <h3 class="category-title text-center fw-bold my-3">
+          {{ group.name }}
+        </h3>
+      </div>
+
+      <!-- Team Members -->
+      <div class="row gy-4 gx-4 justify-content-center">
+        {% for member in group.items %}
+        <div
+          class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex justify-content-center"
+        >
+          <div
+            style="width: 200px; height: 230px; border-radius: 7px"
+            class="member"
+          >
+            <img
+              src="{{ member.avatar }}"
+              style="width: 100%; height: 100%; object-fit: cover"
+              alt="{{ member.name }}"
+            />
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4><a href="{{ member.url }}">{{ member.name }}</a></h4>
+                <span>{{ member.title }}</span>
+              </div>
+              <div class="social">
+                {% for s in member.social %}
+                <a href="{{ s.link }}" target="_blank" class="mx-1">
+                  <i class="{{ s.icon }}"></i>
+                </a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endunless %} {% endfor %}
+  </div>
+</section>

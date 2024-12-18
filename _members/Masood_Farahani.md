@@ -1,7 +1,8 @@
 ---
 layout: member
 name: Masood Farahani
-avatar: /assets/img/membersimg/images.png
+category: Physics and Engineering
+avatar: /assets/img/membersimg/Masood Farahani.png
 title: Member
 social:
   - link: linkedin.com/in/masood-farahani-a31a65167

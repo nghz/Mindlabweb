@@ -1,7 +1,8 @@
 ---
 layout: member
 name: Elnaz Ramezani
-avatar: /assets/img/membersimg/images.png
+avatar: /assets/img/membersimg/Elnaz Ramezani.png
+category: Finance
 title: Member
 social:
   - link: https://www.linkedin.com/in/elnazramezani

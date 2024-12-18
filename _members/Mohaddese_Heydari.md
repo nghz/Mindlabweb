@@ -1,6 +1,7 @@
 ---
 layout: member
 name: Mohaddeseh Heidari
+category: Finance
 avatar: /assets/img/membersimg/images.png
 title: Member
 social:

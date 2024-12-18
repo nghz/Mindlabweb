@@ -1,7 +1,8 @@
 ---
 layout: member
 name: M.Amin Ghoreyshi
-avatar: /assets/img/membersimg/images.png
+category: Physics and Engineering
+avatar: /assets/img/membersimg/M. Amin Ghoreyshi.png
 title: Member
 social:
   - link: https://www.linkedin.com/in/aminghoreyshi/

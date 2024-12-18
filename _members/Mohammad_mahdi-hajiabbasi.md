@@ -1,10 +1,11 @@
 ---
 layout: member
 name: Mohammad Mahdi Hajiabbasi
-# avatar: /assets/img/membersimg/mohammadmahdihajiabasi.jpg
-avatar: /assets/img/membersimg/images.png
+category: Finance
+avatar: /assets/img/membersimg/mohammadmahdihajiabasi.jpg
+# avatar: /assets/img/membersimg/images.png
 title: Member
-social:  
+social:
   - link: https://www.linkedin.com/in/mohammad-mahdi-hajiabbasi-87824020b/
     icon: bi-linkedin
 

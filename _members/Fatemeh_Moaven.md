@@ -2,12 +2,11 @@
 layout: member
 name: Fatemeh Moaven
 avatar: /assets/img/membersimg/Fatemehmoaven.jpg
-# avatar: /assets/img/membersimg/images.png
 title: Member
+category: Computational Biology
 social:
   - link: https://www.linkedin.com/in/fatemeh-moaven-1151b2231/
     icon: bi-linkedin
-
   - link: https://github.com/Fm1540440
     icon: bi-github
 ---
