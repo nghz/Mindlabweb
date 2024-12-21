@@ -2,7 +2,7 @@
 layout: member
 name: Mahya Pashapour
 category: Computational Biology
-avatar: /assets/img/membersimg/images.png
+avatar: /assets/img/membersimg/mahyapashapor.HEIC
 title: Member
 social:
   - link: https://www.linkedin.com/in/mahya-pashapour-18a939264

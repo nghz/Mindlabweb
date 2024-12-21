@@ -2,7 +2,7 @@
 layout: member
 name: Fateme Loghmanpour
 category: Physics and Engineering
-avatar: /assets/img/membersimg/images.png
+avatar: /assets/img/membersimg/fatemeloghmanpor.jpg
 title: Member
 social:
 ---
