@@ -2,7 +2,7 @@
 layout: member
 name: Mostafa Abbaszadeh
 category: Professor/TeamLead
-avatar: /assets/img/membersimg/MostafaAbbaszadeh.jpg
+avatar: /assets/img/membersimg/drabbaszade.png
 title: Professor/Team lead
 social:
   - link: https://www.linkedin.com/in/mostafa-abbaszadeh-81493b248/

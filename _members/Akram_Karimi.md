@@ -2,7 +2,7 @@
 layout: member
 name: Akram Karimi
 category: Finance
-avatar: /assets/img/membersimg/images.png
+avatar: /assets/img/membersimg/akramkarimi.jpg
 title: Member
 social:
 ---

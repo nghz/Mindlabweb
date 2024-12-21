@@ -2,7 +2,7 @@
 layout: member
 name: Atefeh Sadeghi
 category: Computational Biology
-avatar: /assets/img/membersimg/images.png
+avatar: /assets/img/membersimg/atefesadeghi.jpg
 title: Member
 social:
 ---

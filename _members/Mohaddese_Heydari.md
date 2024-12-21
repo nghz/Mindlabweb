@@ -2,7 +2,7 @@
 layout: member
 name: Mohaddeseh Heidari
 category: Finance
-avatar: /assets/img/membersimg/images.png
+avatar: /assets/img/membersimg/mohadeseheidari.jpg
 title: Member
 social:
   - link: https://www.linkedin.com/in/mohaddeseheydari

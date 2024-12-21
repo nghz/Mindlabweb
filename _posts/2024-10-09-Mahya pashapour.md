@@ -1,7 +1,7 @@
 ---
 layout: post
 speaker: Mahya Pashapour
-position: Reshearcher
+position: Researcher
 avatar: /assets/img/posts/09-10-2024/mahyapashapour.jpg
 date: 09-10-2024
 title: >
