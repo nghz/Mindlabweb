@@ -16,6 +16,4 @@ social:
 ---
 
 Mostafa Abbaszadeh is an Associate Professor of Applied Mathematics at Amirkabir University of Technology in Tehran, Iran. His research primarily focuses on numerical methods for partial differential equations, computational mechanics, and mathematical modeling. He has contributed significantly to the field through various publications, including studies on the proper orthogonal decomposition method and meshless methods for numerical simulations. Abbaszadeh has collaborated with researchers internationally and has presented his work at numerous conferences. His contributions have been recognized in several academic journals, where he has served as a reviewer. He is dedicated to advancing the understanding and application of mathematical techniques in engineering and physical sciences.
-# Numerical simulation and error estimation of the Davey-Stewartson equations with virtual element method, 
-https://doi.org/10.1016/j.amc.2024.129146
 ###### Email : mabbaszadeh.aut@gmail.com
