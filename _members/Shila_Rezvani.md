@@ -1,7 +1,7 @@
 ---
 layout: member
 name: Shila Rezvani
-avatar: /assets/img/membersimg/images.png
+avatar: /assets/img/membersimg/shila.JPG
 category: Computational Biology
 title: Member
 social:

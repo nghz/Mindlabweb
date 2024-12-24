@@ -2,7 +2,7 @@
 layout: post
 speaker: Raoof Zare
 position: Researcher
-avatar:
+avatar: /assets/img/posts/06-11-2024/raoof.jpg
 date: 06-11-2024
 title: >
   PRACTICAL WORKSHOP-Getting Started with PyTorch and PINNS-SESSION 1

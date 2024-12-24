@@ -2,7 +2,7 @@
 layout: member
 name: Baharak Hooshyar Farzin
 category: Physics and Engineering
-avatar: /assets/img/membersimg/images.png
+avatar: /assets/img/membersimg/farzin.jpg
 title: Member
 social:
   - link: https://scholar.google.com/citations?user=WA5zYxUAAAAJ&hl=en
