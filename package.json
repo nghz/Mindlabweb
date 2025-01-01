@@ -1,0 +1,22 @@
+{
+  "name": "mindlabweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tinacms/toolkit": "^1.7.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tinacms": "^2.5.2"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.7.0",
+    "@types/node": "^22.10.3"
+  }
+}
