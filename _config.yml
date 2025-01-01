@@ -2,9 +2,3 @@ name: MINDLAB
 collections:
   members:
     output: true
-
-baseurl: ""
-url: "https://parsarahbari82.github.io"
-exclude:
-  - admin
-  - node_modules
