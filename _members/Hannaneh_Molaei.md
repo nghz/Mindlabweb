@@ -4,7 +4,7 @@ name: Hannaneh Molaei
 category: Computational Biology
 avatar: /assets/img/membersimg/hanane.jpg
 title: Member
-social:
+social: []
 ---
 
 Hannaneh Molaei is a master's student in Applied Mathematics with a specialization in Numerical Analysis at Amirkabir University of Technology. She holds a Bachelor's degree in Mathematics and its Applications from Kharazmi University, Tehran.  

@@ -4,7 +4,7 @@ name: Akram Karimi
 category: Finance
 avatar: /assets/img/membersimg/akramkarimi.jpg
 title: Member
-social:
+social: []
 ---
 
 Master student in financial mathematics
