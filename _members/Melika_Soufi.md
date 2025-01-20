@@ -1,14 +1,14 @@
 ---
 layout: member
-name: Melika Soufi
+name: Melika Taheri Soofi
 category: Computational Biology
-avatar: /assets/img/membersimg/images.png
+avatar: /assets/img/membersimg/MelikaTaheriSoofi.jpg
 title: Member
 social:
   - link: https://github.com/sooofi2004
     icon: bi-github
 ---
 
-Bachelor student computer science
+Bachelor student computer science intrested in PINNs
 
 ###### Email : melikasoufi83@gmail.com
