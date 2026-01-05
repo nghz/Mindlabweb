@@ -2,3 +2,5 @@ name: MINDLAB
 collections:
   members:
     output: true
+url: "https://nghz.github.io"
+baseurl: "/Mindlabweb"
