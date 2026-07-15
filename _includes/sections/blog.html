@@ -33,7 +33,7 @@
  
        <div class="swiper-slide">
          <div class="testimonial-item">
-          <img src="{{post.avatar}}" class="testimonial-img" alt="">
+          <img src="{{post.avatar | relative_url }}" class="testimonial-img" alt="">
            <h3>{{post.speaker}}</h3>
            <h4>{{post.position}}</h4>
            <h5>{{post.date | date_to_string}}</h5>
